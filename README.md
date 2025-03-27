@@ -13,5 +13,5 @@ Our vision is to revolutionize online collaboration by creating a secure, tamper
 - **Cross-Platform Support:** Enhance usability across web, mobile, and desktop environments.
 
 ## Contract Details
-**Contract Address:** `0x975c000ebcdb5a73388cacefe72422372ba57945d8b61ed5dad63aeaf894f68c`
+0x9410287e1c963aec727b2cb98b193739d00ed2b4d04bdee23d2d2914df6152be
 
