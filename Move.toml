@@ -1,0 +1,15 @@
+[package]
+name = "collaborative_whiteboard"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x975c000ebcdb5a73388cacefe72422372ba57945d8b61ed5dad63aeaf894f68c"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
