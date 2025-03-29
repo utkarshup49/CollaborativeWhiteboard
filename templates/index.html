@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Whiteboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>AI Whiteboard</h1>
+    <textarea id="whiteboard" rows="10" cols="50">{{ content }}</textarea><br>
+    <button onclick="updateWhiteboard()">Update Whiteboard</button>
+    <button onclick="connectWallet()">Connect Petra Wallet</button>
+
+    <!-- Load Petra Wallet library first -->
+    <script src="https://unpkg.com/aptos@latest/dist/aptos.min.js"></script>
+
+    <!-- Then load your custom JS script -->
+    <script src="/static/script.js"></script>
+    <div id="wallet-address"></div>
+
+</body>
+</html>
